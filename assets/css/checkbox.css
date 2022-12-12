@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     background: rgba(60,61,63,.12);
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 .squaredThree label:after {
@@ -20,7 +20,7 @@
     position: absolute;
     top: 6px;
     left: 6px;
-    border: 3px solid #939393;
+    border: 3px solid #000;
     border-top: none;
     border-right: none;
     background: transparent;
@@ -65,7 +65,7 @@
 
 .blocker {
     top: 95px !important;
-    height: 80% !important;
+    height: calc(100% - 95px) !important;
 }
 
 .modal {

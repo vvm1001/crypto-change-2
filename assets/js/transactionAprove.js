@@ -49,9 +49,6 @@ function renderWithData (data) {
                                     Вы получаете: ${data.toCoinVal} ${data.toCoin}              </div>
                             </div>
                             <div class="transaction__block-input-wrapper">
-                                <div class="transaction__block-input-img">
-                                    <img src="./assets/img/transaction/coin.svg" alt="coin">
-                                </div>
                                 <input class="transaction__block-input" type="text" value="${data.fromCoinVal} ${data.fromCoin}" data-value="${data.fromCoinVal}" readonly>
                             </div>
                             <div class="transaction__block-input-wrapper">

@@ -5,7 +5,7 @@ $(document).ready(function () {
         dataType: "json",
         success: function (data) {
             console.log(data)
-            document.querySelector('#support').href = 'https://t.me/' + data;
+            document.querySelector('#support-link').href = 'https://t.me/' + data;
         },
     });
 });

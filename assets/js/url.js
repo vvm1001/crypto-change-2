@@ -1,4 +1,4 @@
-const URL = 'https://api.dacmaker.com/';
+const URL = 'https://api.adpester.com/';
 
 const logos = document.querySelectorAll('.header__logo');
        

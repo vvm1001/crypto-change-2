@@ -1,4 +1,4 @@
-const URL = 'https://api.adpester.com/';
+const URL = 'https://api.obmencrypto.cc/';
 
 const logos = document.querySelectorAll('.header__logo');
        
